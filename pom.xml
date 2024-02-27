@@ -88,11 +88,11 @@
     </profiles>
 <distributionManagement>
     <repository>
-      <id>releases</id>
+      <id>nexus-repo</id>
       <url>http://34.201.105.113:8081/repository/maven-releases/</url>
     </repository>
     <snapshotRepository>
-      <id>snapshots</id>
+      <id>nexus-repo</id>
       <url>http://34.201.105.113:8081/repository/maven-snapshots//</url>
     </snapshotRepository>
   </distributionManagement>
