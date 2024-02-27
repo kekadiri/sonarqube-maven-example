@@ -86,6 +86,12 @@
             </build>
         </profile>
     </profiles>
+         <repositories>
+    <repository>
+      <id>nexus-repo</id>
+      <url>http://34.201.105.113:8081/</url>
+    </repository>
+  </repositories>
 <distributionManagement>
     <repository>
       <id>releases</id>
