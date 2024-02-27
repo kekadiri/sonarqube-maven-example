@@ -18,7 +18,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
     <build>
         <pluginManagement>
             <plugins>
@@ -44,7 +43,6 @@
             </plugins>
         </pluginManagement>
     </build>
-
     <profiles>
         <profile>
             <id>sonar</id>
@@ -88,5 +86,15 @@
             </build>
         </profile>
     </profiles>
-
+<distributionManagement>
+   <id>nexus-repo</id>
+    <url>http://34.201.105.113:8081/repository/maven-releases/</url>
+    <releases>
+      <enabled>true</enabled>
+    </releases>
+    <snapshots>
+      <enabled>true</enabled>
+    </snapshots>
+   </repository>
+  </distributionManagement> 
 </project>
